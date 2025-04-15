@@ -1,0 +1,128 @@
+# Ignorar arquivos de dados
+*.csv
+*.tsv
+*.dat
+*.data
+*.json
+*.xml
+*.yaml
+*.yml
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.joblib
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Ignorar arquivos de saída de análise
+output/
+*.out
+*.log
+*.tmp
+
+# Ignorar relatórios e gráficos
+*.html
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.bmp
+*.gif
+
+# Ignorar modelos treinados
+*.model
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+# Ignorar checkpoints e cache
+checkpoints/
+*.ckpt
+*.ckpt.data*
+*.ckpt.index
+*.ckpt.meta
+
+# Ignorar diretórios de notebooks
+.ipynb_checkpoints/
+
+# Ignorar ambientes virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignorar configurações de IDEs
+.idea/
+.vscode/
+
+# Ignorar diretórios de cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignorar arquivos de configuração locais
+*.env
+*.ini
+*.cfg
+
+# Ignorar arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Ignorar arquivos de ferramentas de análise
+.mypy_cache/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+
+# Ignorar arquivos de tradução
+*.mo
+*.pot
+
+# Ignorar arquivos de documentação
+*.rst
+*.md
+*.markdown
+
+# Ignorar arquivos de configuração de publicação
+.pypirc
+
+# Ignorar arquivos de ferramentas de ciência de dados
+*.ipynb
+*.rdata
+*.rds
+*.sav
+*.dta
+*.do
+*.sas7bdat
+*.xpt
+*.csv.bz2
+*.csv.gz
+*.csv.zip
+

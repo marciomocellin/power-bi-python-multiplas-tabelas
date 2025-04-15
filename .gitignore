@@ -105,10 +105,10 @@ __pycache__/
 *.mo
 *.pot
 
-# Ignorar arquivos de documentação
-*.rst
-*.md
-*.markdown
+# # Ignorar arquivos de documentação
+# *.rst
+# *.md
+# *.markdown
 
 # Ignorar arquivos de configuração de publicação
 .pypirc
